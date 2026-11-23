@@ -6,11 +6,14 @@
 
 import type { DestZoneId, ZoneId } from "./types";
 import { ZONES, ORDER, theName } from "./data/zones";
+import { STALLS } from "./data/stalls";
 import { $, MW, MH, reduced } from "./ui/dom";
 import { setVB, getVB, camTo, fitBox } from "./ui/camera";
 import { buildMap } from "./ui/map";
 import { renderGrid, renderWelcome } from "./ui/panels";
 import { renderZone } from "./ui/zone";
+import { showStall, closeSheet, highlight } from "./ui/sheet";
+import { renderSearch } from "./ui/search-ui";
 import { playRoute, clearRoute, getCurrent } from "./ui/walker";
 import { state, defZoom } from "./ui/state";
 
@@ -111,12 +114,60 @@ function onClick(e: MouseEvent): void {
     $("#zone")?.scrollIntoView({ behavior: reduced() ? "auto" : "smooth", block: "start" });
     return;
   }
-  // Batch 3: .st (stall) / .row / .res (search) / [data-zoom] / [data-walk] / [data-goto] / #scrim
+  const stb = t.closest<HTMLElement>(".st[data-k]");
+  if (stb && stb.dataset.k) {
+    showStall(stb.dataset.k);
+    return;
+  }
+  const row = t.closest<HTMLElement>(".row,.res");
+  if (row && row.dataset.k) {
+    $("#results")?.classList.remove("on");
+    const k = row.dataset.k;
+    if (k.startsWith("zone:")) {
+      const zid = k.slice(5);
+      if (isDestZone(zid)) go(zid);
+    } else {
+      showStall(k);
+    }
+    return;
+  }
+  const zb = t.closest<HTMLElement>("[data-zoom]");
+  if (zb) {
+    state.zoom = Math.min(3, Math.max(1, state.zoom + Number(zb.dataset.zoom) * 0.5));
+    renderZone();
+    return;
+  }
+  const wk = t.closest<HTMLElement>("[data-walk]");
+  if (wk && wk.dataset.walk) {
+    const st = STALLS[wk.dataset.walk];
+    closeSheet();
+    if (st) go(st.zone);
+    return;
+  }
+  const gt = t.closest<HTMLElement>("[data-goto]");
+  if (gt && gt.dataset.goto) {
+    const st = STALLS[gt.dataset.goto];
+    closeSheet();
+    if (st) {
+      state.zone = st.zone;
+      state.zoom = defZoom();
+      renderZone();
+      highlight(gt.dataset.goto);
+    }
+    return;
+  }
+  if (t === $("#scrim")) {
+    closeSheet();
+    return;
+  }
   if (!t.closest(".search")) $("#results")?.classList.remove("on");
 }
 
 function onKeydown(e: KeyboardEvent): void {
-  if (e.key === "Escape") $("#results")?.classList.remove("on"); // Batch 3 also closes the sheet
+  if (e.key === "Escape") {
+    closeSheet();
+    $("#results")?.classList.remove("on");
+  }
   if ((e.key === "Enter" || e.key === " ") && e.target instanceof Element && e.target.matches(".mk,.st[data-k]")) {
     e.preventDefault();
     e.target.dispatchEvent(new MouseEvent("click", { bubbles: true }));
@@ -127,5 +178,7 @@ export function init(): void {
   document.addEventListener("click", onClick);
   document.addEventListener("keydown", onKeydown);
   window.addEventListener("hashchange", fromHash);
+  const q = $<HTMLInputElement>("#q");
+  q?.addEventListener("input", () => renderSearch(q.value));
   fromHash();
 }
