@@ -1,0 +1,175 @@
+{
+  "generated": "2026-11-23T18:11:23.179Z",
+  "note": "Search: NFKD-normalized multi-word AND over label/name/tag/owner/zone; zone matches prepended; max 30 stall hits. Sheets via showStall().",
+  "queries": [
+    {
+      "term": "dosa",
+      "count": 1,
+      "empty": null,
+      "items": [
+        {
+          "k": "f-9",
+          "text": "9 | Mankar Dosa | Food Court"
+        }
+      ]
+    },
+    {
+      "term": "drdo",
+      "count": 1,
+      "empty": null,
+      "items": [
+        {
+          "k": "x-17",
+          "text": "17 | DRDO | Experience Zone"
+        }
+      ]
+    },
+    {
+      "term": "navy",
+      "count": 2,
+      "empty": null,
+      "items": [
+        {
+          "k": "c-LS 7B",
+          "text": "LS 7B | Merchant Navy | Commercial Stalls, Pathway 1"
+        },
+        {
+          "k": "x-Op3",
+          "text": "Open 3 | Indian Navy | Experience Zone"
+        }
+      ]
+    },
+    {
+      "term": "cyber",
+      "count": 2,
+      "empty": null,
+      "items": [
+        {
+          "k": "c-LS 1B",
+          "text": "LS 1B | Sana Cyber Forensics | Commercial Stalls, Pathway 1"
+        },
+        {
+          "k": "x-7",
+          "text": "7 | Cyber Security | Experience Zone"
+        }
+      ]
+    },
+    {
+      "term": "pottery",
+      "count": 1,
+      "empty": null,
+      "items": [
+        {
+          "k": "g-G01",
+          "text": "G01 | Pottery Den | Youth Startup Zone"
+        }
+      ]
+    },
+    {
+      "term": "food",
+      "count": 14,
+      "empty": null,
+      "items": [
+        {
+          "k": "zone:food",
+          "text": "Zone 6 | Food Court | Walk me there"
+        },
+        {
+          "k": "f-1",
+          "text": "1 | Kadhipan Snacks | Food Court"
+        },
+        {
+          "k": "f-2",
+          "text": "2 | Spade and Clover Panipuri | Food Court"
+        },
+        {
+          "k": "f-3",
+          "text": "3 | Waffle Station × The Paradise | Food Court"
+        },
+        {
+          "k": "f-4",
+          "text": "4 | Vayam Bharatiya | Food Court"
+        },
+        {
+          "k": "f-6",
+          "text": "6 | Cakes Over People | Food Court"
+        },
+        {
+          "k": "f-7",
+          "text": "7 | OBagl | Food Court"
+        },
+        {
+          "k": "f-9",
+          "text": "9 | Mankar Dosa | Food Court"
+        },
+        {
+          "k": "f-10",
+          "text": "10 | Sampada Mahila Bachat Gat | Food Court"
+        },
+        {
+          "k": "f-11",
+          "text": "11 | Freshly Yours | Food Court"
+        },
+        {
+          "k": "f-12",
+          "text": "12 | Rajasthani Royal Thali | Food Court"
+        },
+        {
+          "k": "f-13",
+          "text": "13 | Parampara Dining | Food Court"
+        },
+        {
+          "k": "f-14",
+          "text": "14 | Rotary Indian Food Stall | Food Court"
+        },
+        {
+          "k": "f-15",
+          "text": "15 | Rotary Indian Food Stall | Food Court"
+        }
+      ]
+    },
+    {
+      "term": "ganpat",
+      "count": 2,
+      "empty": null,
+      "items": [
+        {
+          "k": "c-LS 2A",
+          "text": "LS 2A | Ganpat University – Centre of Excellence | Commercial Stalls, Pathway 1"
+        },
+        {
+          "k": "c-LS 3A",
+          "text": "LS 3A | Ganpat University – Centre of Excellence | Commercial Stalls, Pathway 1"
+        }
+      ]
+    },
+    {
+      "term": "xyzzy123",
+      "count": 0,
+      "empty": "Nothing matches “xyzzy123”. Try one word from the stall or college name.",
+      "items": []
+    }
+  ],
+  "sheets": [
+    {
+      "k": "c-LS 1A",
+      "text": "LS 1A\nMaharashtra Adolescent Health Academy\n\nReaching the unreached\n\nZone\n1. Commercial Stalls, Pathway 1\nStall by\nChitra Kulkarni\nWalk me there\nShow on layout"
+    },
+    {
+      "k": "f-1",
+      "text": "Stall 1\nKadhipan Snacks\nZone\n6. Food Court\nStall by\nRtn. Ankita Joshi\nWalk me there\nShow on layout"
+    },
+    {
+      "k": "x-17",
+      "text": "Stall 17\nDRDO\n\nDefence Research and Development Organisation\n\nZone\n8. Experience Zone\nPosition\nCubes 40–44\nWalk me there\nShow on layout"
+    },
+    {
+      "k": "g-G01",
+      "text": "G01\nPottery Den\nZone\n2. Youth Startup Zone\nStall by\nArchana Deshpande\nWalk me there\nShow on layout"
+    },
+    {
+      "k": "aa-AA1",
+      "text": "AA1\nZiMi 3D Creations\nZone\n4. Art & Craft Experience Zone\nStall by\nVishal Shah\nWalk me there\nShow on layout"
+    }
+  ]
+}

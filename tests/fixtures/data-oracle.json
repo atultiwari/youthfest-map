@@ -1,0 +1,7093 @@
+{
+  "generated": "2026-11-23T18:05:30.558Z",
+  "source": "https://youthfest.netlify.app/",
+  "zones": {
+    "entry": {
+      "n": "",
+      "name": "Entry & Registration",
+      "short": "Entry",
+      "color": "#334155",
+      "node": "E",
+      "mk": [
+        300,
+        1000
+      ],
+      "door": [
+        300,
+        1000
+      ],
+      "sub": "FC College Gate 2",
+      "how": "FC College Gate 2 on FC Road. Registration desks are just inside the gate."
+    },
+    "commercial": {
+      "n": 1,
+      "name": "Commercial Stalls",
+      "short": "Commercial stalls",
+      "color": "#2563EB",
+      "node": "C",
+      "mk": [
+        336,
+        790
+      ],
+      "door": [
+        300,
+        790
+      ],
+      "how": "Straight ahead from FC College Gate 2. Stalls line both sides of the walkway: Pathway 1 (A and B stalls) comes first, followed by Pathway 2 (C and D stalls)."
+    },
+    "startup": {
+      "n": 2,
+      "name": "Youth Startup Zone",
+      "short": "Youth startups",
+      "color": "#16A34A",
+      "node": "S",
+      "mk": [
+        180,
+        632
+      ],
+      "door": [
+        210,
+        572
+      ],
+      "how": "Walk through the commercial stalls to the junction and turn left. The Youth Startup Zone is on your left, just past the junction."
+    },
+    "kimaya": {
+      "n": 3,
+      "name": "Kimaya",
+      "short": "Kimaya",
+      "color": "#0891B2",
+      "node": "K",
+      "mk": [
+        574,
+        624
+      ],
+      "door": [
+        624,
+        582
+      ],
+      "the": false,
+      "how": "At the junction after the commercial stalls, turn right and follow the road to its end."
+    },
+    "art": {
+      "n": 4,
+      "name": "Art & Craft Experience Zone",
+      "short": "Art & craft",
+      "color": "#D97706",
+      "node": "AR",
+      "mk": [
+        606,
+        480
+      ],
+      "door": [
+        534,
+        480
+      ],
+      "how": "At the junction, turn right, then take the first left. The Art & Craft Zone is on your right."
+    },
+    "amphitheatre": {
+      "n": 5,
+      "name": "N. M. Wadia Amphitheatre",
+      "short": "Amphitheatre",
+      "color": "#7C3AED",
+      "node": "AM",
+      "mk": [
+        344,
+        341
+      ],
+      "door": [
+        395,
+        382
+      ],
+      "how": "At the junction, turn right and take the first left past the Art & Craft Zone. At the end, turn left. The Amphitheatre entrance is on your right. The direct road from the junction is closed."
+    },
+    "food": {
+      "n": 6,
+      "name": "Food Court",
+      "short": "Food court",
+      "color": "#EA580C",
+      "node": "QF",
+      "mk": [
+        82,
+        226
+      ],
+      "door": [
+        274,
+        226
+      ],
+      "how": "Follow the route towards the Amphitheatre, continue to the main road and turn right. The Food Court is on your left."
+    },
+    "mainstage": {
+      "n": 7,
+      "name": "Main Stage",
+      "short": "Main stage",
+      "color": "#4338CA",
+      "node": "QM",
+      "mk": [
+        433,
+        150
+      ],
+      "door": [
+        336,
+        181
+      ],
+      "how": "Follow the route towards the Amphitheatre, continue to the main road and turn right. The Main Stage is on your right, inside Fergusson College Ground."
+    },
+    "experience": {
+      "n": 8,
+      "name": "Experience Zone",
+      "short": "Experience zone",
+      "color": "#DB2777",
+      "node": "QM",
+      "mk": [
+        615,
+        150
+      ],
+      "door": [
+        336,
+        181
+      ],
+      "how": "Follow the route towards the Amphitheatre, continue to the main road and turn right. Enter Fergusson College Ground on your right, the same entrance as the Main Stage. The Experience Zone is on the far side of the ground."
+    }
+  },
+  "order": [
+    "commercial",
+    "startup",
+    "kimaya",
+    "art",
+    "amphitheatre",
+    "food",
+    "mainstage",
+    "experience"
+  ],
+  "counts": {
+    "commercial": 42,
+    "startup": 6,
+    "kimaya": 0,
+    "art": 6,
+    "amphitheatre": 0,
+    "food": 13,
+    "mainstage": 0,
+    "experience": 32
+  },
+  "stallTotal": 99,
+  "stalls": {
+    "c-LS 1A": {
+      "key": "c-LS 1A",
+      "zone": "commercial",
+      "label": "LS 1A",
+      "name": "Maharashtra Adolescent Health Academy",
+      "tag": "Reaching the unreached",
+      "by": "Chitra Kulkarni",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 2A": {
+      "key": "c-LS 2A",
+      "zone": "commercial",
+      "label": "LS 2A",
+      "name": "Ganpat University – Centre of Excellence",
+      "tag": "",
+      "by": "Jitendra Gupta",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 3A": {
+      "key": "c-LS 3A",
+      "zone": "commercial",
+      "label": "LS 3A",
+      "name": "Ganpat University – Centre of Excellence",
+      "tag": "",
+      "by": "Jitendra Gupta",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 4A": {
+      "key": "c-LS 4A",
+      "zone": "commercial",
+      "label": "LS 4A",
+      "name": "Torque Technics",
+      "tag": "KYC – Know Your Career and Enhance Your Skills",
+      "by": "Sanjeev Ogale",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 5A": {
+      "key": "c-LS 5A",
+      "zone": "commercial",
+      "label": "LS 5A",
+      "name": "MANET – MIT-ADT",
+      "tag": "Anchor your future at MANET",
+      "by": "Capt. Prerit Misra",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 6A": {
+      "key": "c-LS 6A",
+      "zone": "commercial",
+      "label": "LS 6A",
+      "name": "BVDUCOA",
+      "tag": "",
+      "by": "Rtn. Shrikant Nikam",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 7A": {
+      "key": "c-LS 7A",
+      "zone": "commercial",
+      "label": "LS 7A",
+      "name": "The Edubridge Program",
+      "tag": "",
+      "by": "Crystal Lifestyles (Sports City)",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 8A": {
+      "key": "c-LS 8A",
+      "zone": "commercial",
+      "label": "LS 8A",
+      "name": "MindLyft AI",
+      "tag": "",
+      "by": "Shubham Jadhav",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 9A": {
+      "key": "c-LS 9A",
+      "zone": "commercial",
+      "label": "LS 9A",
+      "name": "SNDTWU Chetna",
+      "tag": "",
+      "by": "Rtn. Pallavi Raut, SNDT",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 10A": {
+      "key": "c-LS 10A",
+      "zone": "commercial",
+      "label": "LS 10A",
+      "name": "Dnyanadeep Academy for UPSC & MPSC",
+      "tag": "",
+      "by": "Shubham Jadhav",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 11A": {
+      "key": "c-LS 11A",
+      "zone": "commercial",
+      "label": "LS 11A",
+      "name": "Chinmay Education Consultancy / Basic Tutorials",
+      "tag": "Overseas education and tuition classes",
+      "by": "Rtn. Sameer Basic",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 12A": {
+      "key": "c-LS 12A",
+      "zone": "commercial",
+      "label": "LS 12A",
+      "name": "Maharshi Karve Stree Shikshan Samstha (MKSS)",
+      "tag": "",
+      "by": "Ujwal Tyade",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 13A": {
+      "key": "c-LS 13A",
+      "zone": "commercial",
+      "label": "LS 13A",
+      "name": "Krishna Popalghat",
+      "tag": "",
+      "by": "",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 1B": {
+      "key": "c-LS 1B",
+      "zone": "commercial",
+      "label": "LS 1B",
+      "name": "Sana Cyber Forensics",
+      "tag": "Investigation and Data Security Services Pvt Ltd",
+      "by": "Nachiket Dandekar",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 2B": {
+      "key": "c-LS 2B",
+      "zone": "commercial",
+      "label": "LS 2B",
+      "name": "Herbayog",
+      "tag": "Essence of Ayurveda",
+      "by": "The Varma Pharmacy Pvt Ltd",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 3B": {
+      "key": "c-LS 3B",
+      "zone": "commercial",
+      "label": "LS 3B",
+      "name": "Raytechi Shala",
+      "tag": "",
+      "by": "Rtn. Jyoti Sawardekar",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 4B": {
+      "key": "c-LS 4B",
+      "zone": "commercial",
+      "label": "LS 4B",
+      "name": "Raytechi Shala",
+      "tag": "",
+      "by": "Rtn. Jyoti Sawardekar",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 5B": {
+      "key": "c-LS 5B",
+      "zone": "commercial",
+      "label": "LS 5B",
+      "name": "New PPC Stationery & Printing Hub",
+      "tag": "",
+      "by": "Newppc Gindra",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 6B": {
+      "key": "c-LS 6B",
+      "zone": "commercial",
+      "label": "LS 6B",
+      "name": "AARNELL Education Pvt Ltd",
+      "tag": "",
+      "by": "Rtn. Vaishali Rawalh",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 7B": {
+      "key": "c-LS 7B",
+      "zone": "commercial",
+      "label": "LS 7B",
+      "name": "Merchant Navy",
+      "tag": "Your future beyond the horizon",
+      "by": "Rtn. Capt. Anil Mehta (Sports City)",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 8B": {
+      "key": "c-LS 8B",
+      "zone": "commercial",
+      "label": "LS 8B",
+      "name": "Anvisha Holidays",
+      "tag": "",
+      "by": "Rtn. Vishal Yeole",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 9B": {
+      "key": "c-LS 9B",
+      "zone": "commercial",
+      "label": "LS 9B",
+      "name": "PCET",
+      "tag": "",
+      "by": "SB Patil College",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 10B": {
+      "key": "c-LS 10B",
+      "zone": "commercial",
+      "label": "LS 10B",
+      "name": "PCU",
+      "tag": "",
+      "by": "SB Patil College",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-LS 11B": {
+      "key": "c-LS 11B",
+      "zone": "commercial",
+      "label": "LS 11B",
+      "name": "Worldwide Properties",
+      "tag": "",
+      "by": "Rtn. Priya Phadnis",
+      "sub": "Pathway 1",
+      "cubes": "",
+      "short": ""
+    },
+    "c-1C": {
+      "key": "c-1C",
+      "zone": "commercial",
+      "label": "1C",
+      "name": "Jaipur Elegance",
+      "tag": "",
+      "by": "Rtn. Shruti Marulkar",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-2C": {
+      "key": "c-2C",
+      "zone": "commercial",
+      "label": "2C",
+      "name": "Sanmati Bal Niketan",
+      "tag": "",
+      "by": "",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-3C": {
+      "key": "c-3C",
+      "zone": "commercial",
+      "label": "3C",
+      "name": "Skolarmind",
+      "tag": "Best study option for enhancing quality, ensuring success",
+      "by": "Archhiita Maadkke",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-4C": {
+      "key": "c-4C",
+      "zone": "commercial",
+      "label": "4C",
+      "name": "Bhoi Foundation, Pune",
+      "tag": "Youth Against Narcotics",
+      "by": "Dr. Milind Bhoi",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-5C": {
+      "key": "c-5C",
+      "zone": "commercial",
+      "label": "5C",
+      "name": "ISTRO Safety Training & Education Services Pvt Ltd",
+      "tag": "",
+      "by": "Rtn. Ashok Shinde",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-6C": {
+      "key": "c-6C",
+      "zone": "commercial",
+      "label": "6C",
+      "name": "Jeevan Anand Corporate Insurance Services",
+      "tag": "Since 1993",
+      "by": "Shashikant Pande",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-7C": {
+      "key": "c-7C",
+      "zone": "commercial",
+      "label": "7C",
+      "name": "Mireva",
+      "tag": "",
+      "by": "Rashmi Joshi",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-8C": {
+      "key": "c-8C",
+      "zone": "commercial",
+      "label": "8C",
+      "name": "Marathwada College Tourism",
+      "tag": "",
+      "by": "Anil Bhosale",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-9C": {
+      "key": "c-9C",
+      "zone": "commercial",
+      "label": "9C",
+      "name": "Bureau of Indian Standards",
+      "tag": "Pune Branch Office",
+      "by": "Harsh Bis",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-10C": {
+      "key": "c-10C",
+      "zone": "commercial",
+      "label": "10C",
+      "name": "Kaamya Crystals",
+      "tag": "",
+      "by": "Rtn. Dr. Aarti Nawathe",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-11C": {
+      "key": "c-11C",
+      "zone": "commercial",
+      "label": "11C",
+      "name": "EuroGlobal Education Pvt Ltd, Pune",
+      "tag": "",
+      "by": "Mayuresh Kulkarni",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-1D": {
+      "key": "c-1D",
+      "zone": "commercial",
+      "label": "1D",
+      "name": "MAHER",
+      "tag": "",
+      "by": "Maher NGO",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-2D": {
+      "key": "c-2D",
+      "zone": "commercial",
+      "label": "2D",
+      "name": "Criticam Medical Systems LLP",
+      "tag": "",
+      "by": "Girish Mathkar",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-3D": {
+      "key": "c-3D",
+      "zone": "commercial",
+      "label": "3D",
+      "name": "RYE – NGSE",
+      "tag": "Rotary Youth Exchange and New Generations Service Exchange",
+      "by": "Sarika Rode",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-4D": {
+      "key": "c-4D",
+      "zone": "commercial",
+      "label": "4D",
+      "name": "Let’s RISE",
+      "tag": "",
+      "by": "Prasad Ganpule",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-5D": {
+      "key": "c-5D",
+      "zone": "commercial",
+      "label": "5D",
+      "name": "B G Kelkar Group Tours and Education",
+      "tag": "",
+      "by": "Manish Kelkar",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-6D": {
+      "key": "c-6D",
+      "zone": "commercial",
+      "label": "6D",
+      "name": "Suvarna Prakash Talent Solutions",
+      "tag": "",
+      "by": "Rtn. Akshay Pandit",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "c-7D": {
+      "key": "c-7D",
+      "zone": "commercial",
+      "label": "7D",
+      "name": "EduPath",
+      "tag": "",
+      "by": "Ravi Bendre",
+      "sub": "Pathway 2",
+      "cubes": "",
+      "short": ""
+    },
+    "f-1": {
+      "key": "f-1",
+      "zone": "food",
+      "label": "Stall 1",
+      "name": "Kadhipan Snacks",
+      "tag": "",
+      "by": "Rtn. Ankita Joshi",
+      "sub": "Code F01",
+      "cubes": "",
+      "short": ""
+    },
+    "f-2": {
+      "key": "f-2",
+      "zone": "food",
+      "label": "Stall 2",
+      "name": "Spade and Clover Panipuri",
+      "tag": "",
+      "by": "Rohit Kumbhar",
+      "sub": "Code F02",
+      "cubes": "",
+      "short": ""
+    },
+    "f-3": {
+      "key": "f-3",
+      "zone": "food",
+      "label": "Stall 3",
+      "name": "Waffle Station × The Paradise",
+      "tag": "",
+      "by": "Atul Zadpe",
+      "sub": "Code F03",
+      "cubes": "",
+      "short": ""
+    },
+    "f-4": {
+      "key": "f-4",
+      "zone": "food",
+      "label": "Stall 4",
+      "name": "Vayam Bharatiya",
+      "tag": "",
+      "by": "Pruthviraj Chavan",
+      "sub": "Code F04",
+      "cubes": "",
+      "short": ""
+    },
+    "f-6": {
+      "key": "f-6",
+      "zone": "food",
+      "label": "Stall 6",
+      "name": "Cakes Over People",
+      "tag": "",
+      "by": "Anuradhan",
+      "sub": "Code F06",
+      "cubes": "",
+      "short": ""
+    },
+    "f-7": {
+      "key": "f-7",
+      "zone": "food",
+      "label": "Stall 7",
+      "name": "OBagl",
+      "tag": "Gourmet bagel sandwiches",
+      "by": "Varun Ahuja",
+      "sub": "Code F07",
+      "cubes": "",
+      "short": ""
+    },
+    "f-9": {
+      "key": "f-9",
+      "zone": "food",
+      "label": "Stall 9",
+      "name": "Mankar Dosa",
+      "tag": "Warje Branch",
+      "by": "Rtn. Savita Pravin",
+      "sub": "Code F20",
+      "cubes": "",
+      "short": ""
+    },
+    "f-10": {
+      "key": "f-10",
+      "zone": "food",
+      "label": "Stall 10",
+      "name": "Sampada Mahila Bachat Gat",
+      "tag": "",
+      "by": "Stree Shakti",
+      "sub": "Code F25",
+      "cubes": "",
+      "short": ""
+    },
+    "f-11": {
+      "key": "f-11",
+      "zone": "food",
+      "label": "Stall 11",
+      "name": "Freshly Yours",
+      "tag": "",
+      "by": "Nikhil Jain",
+      "sub": "Code F26",
+      "cubes": "",
+      "short": ""
+    },
+    "f-12": {
+      "key": "f-12",
+      "zone": "food",
+      "label": "Stall 12",
+      "name": "Rajasthani Royal Thali",
+      "tag": "",
+      "by": "Kishanlal Sharma",
+      "sub": "Code F28",
+      "cubes": "",
+      "short": ""
+    },
+    "f-13": {
+      "key": "f-13",
+      "zone": "food",
+      "label": "Stall 13",
+      "name": "Parampara Dining",
+      "tag": "",
+      "by": "Madndar Kulkarni",
+      "sub": "Code F29",
+      "cubes": "",
+      "short": ""
+    },
+    "f-14": {
+      "key": "f-14",
+      "zone": "food",
+      "label": "Stall 14",
+      "name": "Rotary Indian Food Stall",
+      "tag": "",
+      "by": "Madndar Kulkarni",
+      "sub": "Code F30",
+      "cubes": "",
+      "short": ""
+    },
+    "f-15": {
+      "key": "f-15",
+      "zone": "food",
+      "label": "Stall 15",
+      "name": "Rotary Indian Food Stall",
+      "tag": "",
+      "by": "Madndar Kulkarni",
+      "sub": "Code F31",
+      "cubes": "",
+      "short": ""
+    },
+    "x-1": {
+      "key": "x-1",
+      "zone": "experience",
+      "label": "Stall 1",
+      "name": "Deccan Education Society",
+      "tag": "Host",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "1",
+      "short": "DES (host)"
+    },
+    "x-2": {
+      "key": "x-2",
+      "zone": "experience",
+      "label": "Stall 2",
+      "name": "NEA",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "2–4",
+      "short": "NEA"
+    },
+    "x-3": {
+      "key": "x-3",
+      "zone": "experience",
+      "label": "Stall 3",
+      "name": "NSF",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "5–7",
+      "short": "NSF"
+    },
+    "x-4": {
+      "key": "x-4",
+      "zone": "experience",
+      "label": "Stall 4",
+      "name": "AISSMS",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "8–10",
+      "short": "AISSMS"
+    },
+    "x-5": {
+      "key": "x-5",
+      "zone": "experience",
+      "label": "Stall 5",
+      "name": "Dnyanadeep Academy",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "11–13",
+      "short": "Dnyanadeep Academy"
+    },
+    "x-6": {
+      "key": "x-6",
+      "zone": "experience",
+      "label": "Stall 6",
+      "name": "MindLyft AI",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "14–16",
+      "short": "MindLyft AI"
+    },
+    "x-7": {
+      "key": "x-7",
+      "zone": "experience",
+      "label": "Stall 7",
+      "name": "Cyber Security",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "17–18",
+      "short": "Cyber Security"
+    },
+    "x-8": {
+      "key": "x-8",
+      "zone": "experience",
+      "label": "Stall 8",
+      "name": "Cosmos Bank",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "19–20",
+      "short": "Cosmos Bank"
+    },
+    "x-9": {
+      "key": "x-9",
+      "zone": "experience",
+      "label": "Stall 9",
+      "name": "Tolani Maritime Institute",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "21",
+      "short": "Tolani Maritime"
+    },
+    "x-10": {
+      "key": "x-10",
+      "zone": "experience",
+      "label": "Stall 10",
+      "name": "WOL3D",
+      "tag": "3D printing",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "22–24",
+      "short": "WOL3D 3D printing"
+    },
+    "x-11": {
+      "key": "x-11",
+      "zone": "experience",
+      "label": "Stall 11",
+      "name": "Jadhwar College",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "25",
+      "short": "Jadhwar College"
+    },
+    "x-12": {
+      "key": "x-12",
+      "zone": "experience",
+      "label": "Stall 12",
+      "name": "Kinetic",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "26–27",
+      "short": "Kinetic"
+    },
+    "x-13": {
+      "key": "x-13",
+      "zone": "experience",
+      "label": "Stall 13",
+      "name": "CRPF",
+      "tag": "Central Reserve Police Force",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "28–30",
+      "short": "CRPF"
+    },
+    "x-14": {
+      "key": "x-14",
+      "zone": "experience",
+      "label": "Stall 14",
+      "name": "Rajmata Jijau College",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "31–34",
+      "short": "Rajmata Jijau College"
+    },
+    "x-15": {
+      "key": "x-15",
+      "zone": "experience",
+      "label": "Stall 15",
+      "name": "Carver Aviation",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "35–37",
+      "short": "Carver Aviation"
+    },
+    "x-16": {
+      "key": "x-16",
+      "zone": "experience",
+      "label": "Stall 16",
+      "name": "Centre for Science Education & Communication",
+      "tag": "SPPU",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "38–39",
+      "short": "CSEC, SPPU"
+    },
+    "x-17": {
+      "key": "x-17",
+      "zone": "experience",
+      "label": "Stall 17",
+      "name": "DRDO",
+      "tag": "Defence Research and Development Organisation",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "40–44",
+      "short": "DRDO"
+    },
+    "x-18": {
+      "key": "x-18",
+      "zone": "experience",
+      "label": "Stall 18",
+      "name": "Deccan College",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "45–46",
+      "short": "Deccan College"
+    },
+    "x-19": {
+      "key": "x-19",
+      "zone": "experience",
+      "label": "Stall 19",
+      "name": "Ruby Hall Clinic",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "47–48",
+      "short": "Ruby Hall Clinic"
+    },
+    "x-20": {
+      "key": "x-20",
+      "zone": "experience",
+      "label": "Stall 20",
+      "name": "BIS",
+      "tag": "Bureau of Indian Standards",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "49–51",
+      "short": "BIS"
+    },
+    "x-21": {
+      "key": "x-21",
+      "zone": "experience",
+      "label": "Stall 21",
+      "name": "Bakliwal Tutorials",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "52",
+      "short": "Bakliwal Tutorials"
+    },
+    "x-22": {
+      "key": "x-22",
+      "zone": "experience",
+      "label": "Stall 22",
+      "name": "Soft Access Solutions",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "53",
+      "short": "Soft Access Solutions"
+    },
+    "x-23": {
+      "key": "x-23",
+      "zone": "experience",
+      "label": "Stall 23",
+      "name": "Maharashtra Knowledge Corporation Ltd",
+      "tag": "MKCL",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "54–56",
+      "short": "MKCL"
+    },
+    "x-24": {
+      "key": "x-24",
+      "zone": "experience",
+      "label": "Stall 24",
+      "name": "Nandan Buildcon",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "57–58",
+      "short": "Nandan Buildcon"
+    },
+    "x-25": {
+      "key": "x-25",
+      "zone": "experience",
+      "label": "Stall 25",
+      "name": "LEDO India",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "59",
+      "short": "LEDO India"
+    },
+    "x-26": {
+      "key": "x-26",
+      "zone": "experience",
+      "label": "Stall 26",
+      "name": "Zesty Vibe",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "60",
+      "short": "Zesty Vibe"
+    },
+    "x-27": {
+      "key": "x-27",
+      "zone": "experience",
+      "label": "Stall 27",
+      "name": "BIG FM",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "61",
+      "short": "BIG FM"
+    },
+    "x-28": {
+      "key": "x-28",
+      "zone": "experience",
+      "label": "Stall 28",
+      "name": "Sakal",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "62",
+      "short": "Sakal"
+    },
+    "x-Op1": {
+      "key": "x-Op1",
+      "zone": "experience",
+      "label": "Open 1",
+      "name": "Neebe",
+      "tag": "Open ground + stall",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "Op1–Op2",
+      "short": "Neebe"
+    },
+    "x-Op2": {
+      "key": "x-Op2",
+      "zone": "experience",
+      "label": "Open 2",
+      "name": "Indian Air Force",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "Op3–Op4",
+      "short": "Air Force"
+    },
+    "x-Op3": {
+      "key": "x-Op3",
+      "zone": "experience",
+      "label": "Open 3",
+      "name": "Indian Navy",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "Op5–Op6",
+      "short": "Navy"
+    },
+    "x-Op4": {
+      "key": "x-Op4",
+      "zone": "experience",
+      "label": "Open 4",
+      "name": "Indian Army",
+      "tag": "",
+      "by": "",
+      "sub": "Experience Zone",
+      "cubes": "Op7–Op8",
+      "short": "Army"
+    },
+    "g-G01": {
+      "key": "g-G01",
+      "zone": "startup",
+      "label": "G01",
+      "name": "Pottery Den",
+      "tag": "",
+      "by": "Archana Deshpande",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "g-G02": {
+      "key": "g-G02",
+      "zone": "startup",
+      "label": "G02",
+      "name": "Aura",
+      "tag": "",
+      "by": "Archana Deshpande",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "g-G03": {
+      "key": "g-G03",
+      "zone": "startup",
+      "label": "G03",
+      "name": "Kayo Printees",
+      "tag": "",
+      "by": "Mrudula Mahamunkar",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "g-G04": {
+      "key": "g-G04",
+      "zone": "startup",
+      "label": "G04",
+      "name": "House of Bahava",
+      "tag": "",
+      "by": "Hritik",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "g-G05": {
+      "key": "g-G05",
+      "zone": "startup",
+      "label": "G05",
+      "name": "Trackk",
+      "tag": "",
+      "by": "Manas Navjekar",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "g-G08": {
+      "key": "g-G08",
+      "zone": "startup",
+      "label": "G08",
+      "name": "Pune Protein Company",
+      "tag": "",
+      "by": "Samkit",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA1": {
+      "key": "aa-AA1",
+      "zone": "art",
+      "label": "AA1",
+      "name": "ZiMi 3D Creations",
+      "tag": "",
+      "by": "Vishal Shah",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA2": {
+      "key": "aa-AA2",
+      "zone": "art",
+      "label": "AA2",
+      "name": "Twisted Bliss",
+      "tag": "Find your perfect twist",
+      "by": "Ankita",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA3": {
+      "key": "aa-AA3",
+      "zone": "art",
+      "label": "AA3",
+      "name": "Creative Canopies",
+      "tag": "",
+      "by": "Pooja",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA4": {
+      "key": "aa-AA4",
+      "zone": "art",
+      "label": "AA4",
+      "name": "Lumascenta",
+      "tag": "",
+      "by": "Madhura Mungi",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA5": {
+      "key": "aa-AA5",
+      "zone": "art",
+      "label": "AA5",
+      "name": "Unnati Pediatric Rehabilitation Center",
+      "tag": "",
+      "by": "Dr. Rohan Wale",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    },
+    "aa-AA6": {
+      "key": "aa-AA6",
+      "zone": "art",
+      "label": "AA6",
+      "name": "Ombre Nail Bar · M3D Works",
+      "tag": "",
+      "by": "Labdhi Desai",
+      "sub": "10 × 10 ft",
+      "cubes": "",
+      "short": ""
+    }
+  },
+  "routes": {
+    "entry->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 210
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        }
+      ]
+    },
+    "entry->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the Startup road",
+          "at": 440
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 542
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 530
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 542
+        }
+      ]
+    },
+    "entry->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 786
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 764
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 786
+        }
+      ]
+    },
+    "entry->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 660
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your right.",
+          "at": 754
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 740
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 754
+        }
+      ]
+    },
+    "entry->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 660
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 820
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your right.",
+          "at": 963
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 740
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 820
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 945
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 963
+        }
+      ]
+    },
+    "entry->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 660
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 820
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 1040
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 1240
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 740
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 820
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 945
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 1040
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1214
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 1240
+        }
+      ]
+    },
+    "entry->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 660
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 820
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 1040
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 1295
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 740
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 820
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 945
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 1040
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1214
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 1259
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 1295
+        }
+      ]
+    },
+    "entry->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at FC College Gate 2",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 440
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 660
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 820
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 1040
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 1295
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            1000
+          ],
+          "node": "E",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 210
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 440
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 660
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 740
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 820
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 945
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 1040
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1214
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 1259
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 1295
+        }
+      ]
+    },
+    "commercial->commercial": {
+      "self": true
+    },
+    "commercial->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the Startup road",
+          "at": 230
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 332
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 320
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 332
+        }
+      ]
+    },
+    "commercial->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 576
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 554
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 576
+        }
+      ]
+    },
+    "commercial->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 450
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your right.",
+          "at": 544
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 530
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 544
+        }
+      ]
+    },
+    "commercial->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 450
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 610
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your right.",
+          "at": 753
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 530
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 610
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 735
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 753
+        }
+      ]
+    },
+    "commercial->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 450
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 610
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 830
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 1030
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 530
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 610
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 735
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 830
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1004
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 1030
+        }
+      ]
+    },
+    "commercial->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 450
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 610
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 830
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 1085
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 530
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 610
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 735
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 830
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1004
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 1049
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 1085
+        }
+      ]
+    },
+    "commercial->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Commercial Stalls",
+          "at": 0
+        },
+        {
+          "k": "straight",
+          "t": "Walk along the commercial walkway",
+          "at": 1
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the Kimaya road",
+          "at": 230
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 450
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 610
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 830
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 1085
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 230
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 450
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 530
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 610
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 735
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 830
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 1004
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 1049
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 1085
+        }
+      ]
+    },
+    "startup->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "right",
+          "t": "At the junction, turn right onto the commercial walkway",
+          "at": 102
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 332
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 332
+        }
+      ]
+    },
+    "startup->startup": {
+      "self": true
+    },
+    "startup->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 448
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 426
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 448
+        }
+      ]
+    },
+    "startup->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 322
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your right.",
+          "at": 416
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 402
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 416
+        }
+      ]
+    },
+    "startup->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 322
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 482
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your right.",
+          "at": 625
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 402
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 482
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 607
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 625
+        }
+      ]
+    },
+    "startup->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 322
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 482
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 702
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 902
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 402
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 482
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 607
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 702
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 876
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 902
+        }
+      ]
+    },
+    "startup->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 322
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 482
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 702
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 957
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 402
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 482
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 607
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 702
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 876
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 921
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 957
+        }
+      ]
+    },
+    "startup->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Youth Startup Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Youth Startup Zone and turn right onto the Startup road",
+          "at": 12
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Kimaya road",
+          "at": 102
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the connector road",
+          "at": 322
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 482
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 702
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 957
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 12
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 102
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 322
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 402
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 482
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 607
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 702
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 876
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 921
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 957
+        }
+      ]
+    },
+    "kimaya->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 346
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 576
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 346
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 576
+        }
+      ]
+    },
+    "kimaya->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 346
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 448
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 346
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 436
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 448
+        }
+      ]
+    },
+    "kimaya->kimaya": {
+      "self": true
+    },
+    "kimaya->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the connector road",
+          "at": 126
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your right.",
+          "at": 220
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 206
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 220
+        }
+      ]
+    },
+    "kimaya->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the connector road",
+          "at": 126
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 286
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your right.",
+          "at": 429
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 206
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 286
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 411
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 429
+        }
+      ]
+    },
+    "kimaya->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the connector road",
+          "at": 126
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 286
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 506
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 706
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 206
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 286
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 411
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 506
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 680
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 706
+        }
+      ]
+    },
+    "kimaya->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the connector road",
+          "at": 126
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 286
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 506
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 761
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 206
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 286
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 411
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 506
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 680
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 725
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 761
+        }
+      ]
+    },
+    "kimaya->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at Kimaya",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave Kimaya and turn left onto the Kimaya road",
+          "at": 22
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the connector road",
+          "at": 126
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 286
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 506
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 761
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 22
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 126
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 206
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 286
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 411
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 506
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 680
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 725
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 761
+        }
+      ]
+    },
+    "art->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Art & Craft Experience Zone and turn left onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 94
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 314
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 544
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 94
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 314
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 544
+        }
+      ]
+    },
+    "art->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Art & Craft Experience Zone and turn left onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 94
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 314
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 416
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 94
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 314
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 404
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 416
+        }
+      ]
+    },
+    "art->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Art & Craft Experience Zone and turn left onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the Kimaya road",
+          "at": 94
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 220
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 94
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 198
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 220
+        }
+      ]
+    },
+    "art->art": {
+      "self": true
+    },
+    "art->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Art & Craft Experience Zone and turn right onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 94
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your right.",
+          "at": 237
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 94
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 219
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 237
+        }
+      ]
+    },
+    "art->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Art & Craft Experience Zone and turn right onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 94
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 314
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 514
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 94
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 219
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 314
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 488
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 514
+        }
+      ]
+    },
+    "art->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Art & Craft Experience Zone and turn right onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 94
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 314
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 569
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 94
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 219
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 314
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 488
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 533
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 569
+        }
+      ]
+    },
+    "art->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Art & Craft Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Art & Craft Experience Zone and turn right onto the connector road",
+          "at": 14
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 94
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 314
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 569
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 14
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 94
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 219
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 314
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 488
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 533
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 569
+        }
+      ]
+    },
+    "amphitheatre->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn left onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 143
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 303
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 523
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 753
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 143
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 223
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 303
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 523
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 753
+        }
+      ]
+    },
+    "amphitheatre->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn left onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 143
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 303
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 523
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 625
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 143
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 223
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 303
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 523
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 613
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 625
+        }
+      ]
+    },
+    "amphitheatre->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn left onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 143
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the Kimaya road",
+          "at": 303
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 429
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 143
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 223
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 303
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 407
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 429
+        }
+      ]
+    },
+    "amphitheatre->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn left onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 143
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your left.",
+          "at": 237
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 143
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 223
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 237
+        }
+      ]
+    },
+    "amphitheatre->amphitheatre": {
+      "self": true
+    },
+    "amphitheatre->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn right onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 113
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your left.",
+          "at": 313
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 113
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 287
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 313
+        }
+      ]
+    },
+    "amphitheatre->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn right onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 113
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 368
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 113
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 287
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 332
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 368
+        }
+      ]
+    },
+    "amphitheatre->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the N. M. Wadia Amphitheatre",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the N. M. Wadia Amphitheatre and turn right onto the Amphitheatre road",
+          "at": 18
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the main road",
+          "at": 113
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 368
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 18
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 113
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 287
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 332
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 368
+        }
+      ]
+    },
+    "food->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Food Court and turn right onto the main road",
+          "at": 26
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 200
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 420
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 580
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 800
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 1030
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 200
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 295
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 420
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 500
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 580
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 800
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 1030
+        }
+      ]
+    },
+    "food->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Food Court and turn right onto the main road",
+          "at": 26
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 200
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 420
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 580
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 800
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 902
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 200
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 295
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 420
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 500
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 580
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 800
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 890
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 902
+        }
+      ]
+    },
+    "food->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Food Court and turn right onto the main road",
+          "at": 26
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 200
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 420
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the Kimaya road",
+          "at": 580
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 706
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 200
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 295
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 420
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 500
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 580
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 684
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 706
+        }
+      ]
+    },
+    "food->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Food Court and turn right onto the main road",
+          "at": 26
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 200
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 420
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your left.",
+          "at": 514
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 200
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 295
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 420
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 500
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 514
+        }
+      ]
+    },
+    "food->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "right",
+          "t": "Leave the Food Court and turn right onto the main road",
+          "at": 26
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 200
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your left.",
+          "at": 313
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 200
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 295
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 313
+        }
+      ]
+    },
+    "food->food": {
+      "self": true
+    },
+    "food->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Food Court and turn left onto the main road",
+          "at": 26
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 107
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 71
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 107
+        }
+      ]
+    },
+    "food->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Food Court",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Food Court and turn left onto the main road",
+          "at": 26
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 107
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 26
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 71
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 107
+        }
+      ]
+    },
+    "mainstage->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 855
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 1085
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 855
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 1085
+        }
+      ]
+    },
+    "mainstage->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 855
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 957
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 855
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 945
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 957
+        }
+      ]
+    },
+    "mainstage->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 761
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 739
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 761
+        }
+      ]
+    },
+    "mainstage->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your left.",
+          "at": 569
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 569
+        }
+      ]
+    },
+    "mainstage->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your left.",
+          "at": 368
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 368
+        }
+      ]
+    },
+    "mainstage->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Main Stage and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your right.",
+          "at": 107
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 107
+        }
+      ]
+    },
+    "mainstage->mainstage": {
+      "self": true
+    },
+    "mainstage->experience": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Main Stage",
+          "at": 0
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Experience Zone is on the far side, beyond the Main Stage.",
+          "at": 72
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": true,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 72
+        }
+      ]
+    },
+    "experience->commercial": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "left",
+          "t": "At the junction, turn left onto the commercial walkway",
+          "at": 855
+        },
+        {
+          "k": "arrive",
+          "t": "You’re at the Commercial Stalls. Stalls line both sides of the walkway.",
+          "at": 1085
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 855
+        },
+        {
+          "p": [
+            300,
+            790
+          ],
+          "node": "C",
+          "at": 1085
+        }
+      ]
+    },
+    "experience->startup": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "right",
+          "t": "At the next turn, turn right onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "straight",
+          "t": "At the junction, continue straight onto the Startup road",
+          "at": 855
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Youth Startup Zone. It’s on your left.",
+          "at": 957
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            300,
+            560
+          ],
+          "node": "J",
+          "at": 855
+        },
+        {
+          "p": [
+            210,
+            560
+          ],
+          "node": "S",
+          "at": 945
+        },
+        {
+          "p": [
+            210,
+            572
+          ],
+          "node": null,
+          "at": 957
+        }
+      ]
+    },
+    "experience->kimaya": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "left",
+          "t": "At the next turn, turn left onto the Kimaya road",
+          "at": 635
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at Kimaya. It’s on your right.",
+          "at": 761
+        }
+      ],
+      "usesConnector": true,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            520,
+            560
+          ],
+          "node": "B",
+          "at": 635
+        },
+        {
+          "p": [
+            624,
+            560
+          ],
+          "node": "K",
+          "at": 739
+        },
+        {
+          "p": [
+            624,
+            582
+          ],
+          "node": null,
+          "at": 761
+        }
+      ]
+    },
+    "experience->art": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "right",
+          "t": "At the corner, turn right onto the connector road",
+          "at": 475
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Art & Craft Experience Zone. It’s on your left.",
+          "at": 569
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            520,
+            400
+          ],
+          "node": "T4",
+          "at": 475
+        },
+        {
+          "p": [
+            520,
+            480
+          ],
+          "node": "AR",
+          "at": 555
+        },
+        {
+          "p": [
+            534,
+            480
+          ],
+          "node": null,
+          "at": 569
+        }
+      ]
+    },
+    "experience->amphitheatre": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "left",
+          "t": "At the corner, turn left onto the Amphitheatre road",
+          "at": 255
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the N. M. Wadia Amphitheatre. It’s on your left.",
+          "at": 368
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            300,
+            400
+          ],
+          "node": "L3",
+          "at": 255
+        },
+        {
+          "p": [
+            395,
+            400
+          ],
+          "node": "AM",
+          "at": 350
+        },
+        {
+          "p": [
+            395,
+            382
+          ],
+          "node": null,
+          "at": 368
+        }
+      ]
+    },
+    "experience->food": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "left",
+          "t": "Leave the Experience Zone and turn left onto the main road",
+          "at": 36
+        },
+        {
+          "k": "arrive",
+          "t": "Arrive at the Food Court. It’s on your right.",
+          "at": 107
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": false,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            300,
+            226
+          ],
+          "node": "QF",
+          "at": 81
+        },
+        {
+          "p": [
+            274,
+            226
+          ],
+          "node": null,
+          "at": 107
+        }
+      ]
+    },
+    "experience->mainstage": {
+      "steps": [
+        {
+          "k": "start",
+          "t": "Start at the Experience Zone",
+          "at": 0
+        },
+        {
+          "k": "arrive",
+          "t": "Enter Fergusson College Ground on your right. The Main Stage is just inside.",
+          "at": 72
+        }
+      ],
+      "usesConnector": false,
+      "sharedEntrance": true,
+      "points": [
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 0
+        },
+        {
+          "p": [
+            300,
+            181
+          ],
+          "node": "QM",
+          "at": 36
+        },
+        {
+          "p": [
+            336,
+            181
+          ],
+          "node": null,
+          "at": 72
+        }
+      ]
+    },
+    "experience->experience": {
+      "self": true
+    }
+  }
+}
