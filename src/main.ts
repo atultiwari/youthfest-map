@@ -1,7 +1,5 @@
-// Entry point for the festival map rebuild.
-// The placeholder markup lives in index.html; interactive features are added
-// in later build batches (map render, search, hash routing, walking route).
+// Entry point: load styles and boot the app.
+import "./style.css";
+import { init } from "./app";
 
-export function appVersion(): string {
-  return "0.0.0";
-}
+init();

@@ -1,78 +1,179 @@
-:root {
-  --bg: #f2f4f8;
-  --surface: #ffffff;
-  --ink: #0f172a;
-  --muted: #5b6476;
-  --head: #0b1e4f;
-  --accent: #f58a14;
-  color-scheme: light;
+:root{
+  --bg:#F2F4F8; --surface:#FFFFFF; --ink:#0F172A; --muted:#5B6476; --faint:#8A93A6; --line:#E2E6EE;
+  --head:#0B1E4F; --accent:#F58A14; --here:#E11D48; --route:#1D4ED8; --routeSoft:rgba(29,78,216,.16);
+  --ground:#EEF1F4; --green:#E2EDDC; --tree:#CFE2C6; --road:#FFFFFF; --casing:#D3D9E3; --bldg:#E1E5EC; --bldgShade:rgba(15,23,42,.07); --bldgText:#7C8598;
+  --stall:#FFFFFF; --idle:#EEF1F5; --idleText:#A3ABBC;
+  color-scheme:light;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
 }
-
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    --bg: #0a111f;
-    --surface: #111a2c;
-    --ink: #e8ecf4;
-    --muted: #a3adc2;
-    --head: #081430;
-    color-scheme: dark;
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A111F; --surface:#111A2C; --ink:#E8ECF4; --muted:#A3ADC2; --faint:#7D879C; --line:#222E46;
+    --head:#081430; --ground:#0E1626; --green:#12241B; --tree:#1A3326; --road:#26324C; --casing:#18223A; --bldg:#1B2538; --bldgShade:rgba(0,0,0,.35); --bldgText:#7D879C;
+    --stall:#17223A; --idle:#131C2F; --idleText:#566078; --route:#60A5FA; --routeSoft:rgba(96,165,250,.20);
+    color-scheme:dark;
   }
 }
-
-* {
-  box-sizing: border-box;
+:root[data-theme="dark"]{
+  --bg:#0A111F; --surface:#111A2C; --ink:#E8ECF4; --muted:#A3ADC2; --faint:#7D879C; --line:#222E46;
+  --head:#081430; --ground:#0E1626; --green:#12241B; --tree:#1A3326; --road:#26324C; --casing:#18223A; --bldg:#1B2538; --bldgShade:rgba(0,0,0,.35); --bldgText:#7D879C;
+  --stall:#17223A; --idle:#131C2F; --idleText:#566078; --route:#60A5FA; --routeSoft:rgba(96,165,250,.20);
+  color-scheme:dark;
 }
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; font-feature-settings:"tnum" 1, "cv11" 1; -webkit-font-smoothing:antialiased; line-height:1.45}
+button{font:inherit; color:inherit}
+:focus-visible{outline:2px solid var(--route); outline-offset:2px; border-radius:6px}
+.wrap{max-width:820px; margin:0 auto; padding:0 14px}
 
-body {
-  margin: 0;
-  background: var(--bg);
-  color: var(--ink);
-  font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  line-height: 1.45;
-  min-height: 100vh;
-  display: grid;
-  place-items: center;
-  padding: 24px;
-}
+header{background:var(--head); color:#fff; border-bottom:3px solid var(--accent)}
+header .wrap{padding-top:16px; padding-bottom:16px}
+.eyebrow{font-size:12.5px; font-weight:500; color:rgba(255,255,255,.7)}
+h1{font-size:24px; line-height:1.15; margin:3px 0 2px; font-weight:700; letter-spacing:-.3px}
+.sub{font-size:13.5px; color:rgba(255,255,255,.7); margin:0}
+.search{position:relative; margin-top:12px}
+.search input{width:100%; border:0; border-radius:10px; padding:12px 14px 12px 40px; font:500 15px Inter, sans-serif; color:#0F172A; background:#fff}
+.search input::placeholder{color:#8A93A6}
+.search svg{position:absolute; left:13px; top:50%; transform:translateY(-50%)}
+.results{position:absolute; left:0; right:0; top:calc(100% + 6px); background:var(--surface); color:var(--ink); border-radius:12px; border:1px solid var(--line); box-shadow:0 16px 40px rgba(15,23,42,.22); max-height:340px; overflow:auto; display:none; z-index:30}
+.results.on{display:block}
+.res{display:flex; gap:12px; align-items:center; width:100%; text-align:left; border:0; background:none; padding:10px 12px; border-bottom:1px solid var(--line); cursor:pointer}
+.res:last-child{border-bottom:0}
+.res:hover{background:var(--bg)}
+.tagno{flex:none; min-width:52px; text-align:center; font-weight:600; font-size:12.5px; color:#fff; border-radius:6px; padding:4px 6px}
+.res .t{font-weight:600; font-size:14px; line-height:1.3}
+.res .z{font-size:12.5px; color:var(--muted)}
+.empty{padding:12px; color:var(--muted); font-size:14px}
 
-.placeholder {
-  max-width: 560px;
-  background: var(--surface);
-  border-top: 3px solid var(--accent);
-  border-radius: 14px;
-  padding: 32px;
-  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.14);
-}
+main.wrap{padding-top:14px; padding-bottom:40px}
 
-.eyebrow {
-  font-size: 12.5px;
-  font-weight: 500;
-  color: var(--muted);
-  margin: 0;
-}
+/* QR welcome */
+.welcome{display:none; position:relative; overflow:hidden; color:#fff; border-radius:16px; padding:18px 18px 18px 16px; margin-bottom:14px;
+  background:linear-gradient(135deg, var(--zc), color-mix(in srgb, var(--zc) 62%, #050816))}
+.welcome.on{display:flex; gap:14px; align-items:center}
+.welcome::after{content:""; position:absolute; right:-40px; top:-40px; width:150px; height:150px; border-radius:50%; background:rgba(255,255,255,.09)}
+.welcome .ic{flex:none; width:54px; height:54px; border-radius:14px; background:rgba(255,255,255,.16); display:grid; place-items:center}
+.welcome .ic svg{width:30px; height:30px}
+.welcome small{display:block; font-size:12.5px; font-weight:600; color:rgba(255,255,255,.8)}
+.welcome strong{display:block; font-size:21px; line-height:1.2; font-weight:700; margin:1px 0 3px}
+.welcome span{font-size:13.5px; color:rgba(255,255,255,.85)}
 
-h1 {
-  font-size: 28px;
-  margin: 4px 0 2px;
-  color: var(--head);
-  letter-spacing: -0.3px;
-}
+/* map */
+.panel{background:var(--surface); border:1px solid var(--line); border-radius:14px}
+.maphead{display:flex; justify-content:space-between; align-items:center; padding:12px 14px 10px; gap:10px}
+.maphead h2{margin:0; font-size:15.5px; font-weight:600}
+.maphead span{display:block; font-size:12.5px; color:var(--muted); margin-top:1px}
+.mapwrap{position:relative; margin:0 8px; aspect-ratio:720/1060; border-radius:10px; overflow:hidden; background:var(--ground)}
+.mapwrap svg{position:absolute; inset:0; width:100%; height:100%; display:block; touch-action:manipulation}
+.fullbtn{flex:none; border:1px solid var(--line); background:var(--surface); border-radius:9px; padding:7px 12px; font-size:12.5px; font-weight:600; cursor:pointer; display:none}
+.fullbtn.on{display:block}
+.mk{cursor:pointer}
+.mk:focus-visible{outline:none}
+.mk:focus-visible .disc{stroke:var(--route); stroke-width:5}
+.legend{display:flex; flex-wrap:wrap; gap:6px 16px; padding:10px 14px 12px; font-size:12px; color:var(--muted)}
+.legend span{display:flex; align-items:center; gap:7px}
+.ping{animation:ping 2s ease-out infinite; transform-box:fill-box; transform-origin:center}
+@keyframes ping{0%{transform:scale(.6); opacity:.55}100%{transform:scale(2.3); opacity:0}}
+.destpulse{animation:dpulse 1.6s ease-out infinite; transform-box:fill-box; transform-origin:center}
+@keyframes dpulse{0%{transform:scale(.9); opacity:.7}100%{transform:scale(1.9); opacity:0}}
 
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) h1 {
-    color: var(--ink);
-  }
-}
+/* walker */
+.walker .lf,.walker .lb{transform-box:view-box; transform-origin:11.4px 13.4px}
+.walker .af,.walker .ab{transform-box:view-box; transform-origin:12.6px 8.2px}
+.walker.walking .lf,.walker.walking .ab{animation:swingA .46s ease-in-out infinite}
+.walker.walking .lb,.walker.walking .af{animation:swingB .46s ease-in-out infinite}
+.walker.walking .bob{animation:bob .23s ease-in-out infinite alternate}
+@keyframes swingA{0%,100%{transform:rotate(26deg)}50%{transform:rotate(-26deg)}}
+@keyframes swingB{0%,100%{transform:rotate(-26deg)}50%{transform:rotate(26deg)}}
+@keyframes bob{from{transform:translateY(0)}to{transform:translateY(-1.6px)}}
+.walker.arrived .hop{animation:hop .55s cubic-bezier(.3,1.6,.5,1) 2}
+@keyframes hop{0%,100%{transform:translateY(0)}45%{transform:translateY(-14px)}}
 
-.sub {
-  font-size: 14px;
-  color: var(--accent);
-  font-weight: 600;
-  margin: 0 0 14px;
-}
+/* directions */
+.dir{display:none; border-top:1px solid var(--line); padding:14px 14px 16px; margin-top:10px}
+.dir.on{display:block}
+.dirhead{display:flex; align-items:center; gap:12px}
+.dirhead .ic{flex:none; width:42px; height:42px; border-radius:12px; background:var(--zc); display:grid; place-items:center}
+.dirhead .ic svg{width:24px; height:24px}
+.dirhead small{display:block; font-size:12px; color:var(--muted); font-weight:500}
+.dirhead strong{display:block; font-size:17px; line-height:1.25; font-weight:700}
+.dirhead .grow{flex:1; min-width:0}
+.iconbtn{flex:none; border:1px solid var(--line); background:var(--surface); border-radius:10px; padding:8px 11px; font-size:13px; font-weight:600; cursor:pointer; display:flex; align-items:center; gap:6px}
+.steps{list-style:none; margin:12px 0 0; padding:0; position:relative}
+.steps li{display:flex; gap:12px; align-items:flex-start; padding:9px 10px; border-radius:11px; font-size:14px; color:var(--muted); transition:background .25s, color .25s}
+.steps li .si{flex:none; width:28px; height:28px; border-radius:50%; display:grid; place-items:center; background:var(--bg); border:1px solid var(--line); transition:background .25s, border-color .25s}
+.steps li .si svg{width:16px; height:16px}
+.steps li .tx{padding-top:3px}
+.steps li.active{background:color-mix(in srgb, var(--route) 11%, var(--surface)); color:var(--ink); font-weight:600}
+.steps li.active .si{background:var(--route); border-color:var(--route)}
+.steps li.active .si svg{stroke:#fff}
+.steps li.done{color:var(--ink)}
+.steps li.done .si{background:color-mix(in srgb, var(--route) 14%, var(--surface)); border-color:transparent}
+.steps li.arrive.active{background:color-mix(in srgb, var(--zc) 14%, var(--surface))}
+.steps li.arrive.active .si{background:var(--zc); border-color:var(--zc)}
+.notice{display:flex; gap:10px; align-items:center; margin-top:10px; padding:9px 11px; border-radius:10px; background:color-mix(in srgb, var(--here) 8%, var(--surface)); border:1px solid color-mix(in srgb, var(--here) 25%, var(--line)); font-size:12.8px; color:var(--ink)}
+.dirfoot{display:flex; gap:8px; margin-top:12px}
+.btn{flex:1; border:0; border-radius:10px; padding:12px; font-weight:600; font-size:14.5px; cursor:pointer; background:var(--zc); color:#fff}
+.btn.ghost{background:transparent; color:var(--ink); border:1px solid var(--line)}
 
-.note {
-  font-size: 14px;
-  color: var(--muted);
-  margin: 0;
-}
+/* destinations */
+.dest{margin-top:16px}
+.dest h2{font-size:16px; margin:0 2px 10px; font-weight:700}
+.grid{display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px}
+.dcard{display:flex; gap:11px; align-items:center; text-align:left; padding:11px; border:1px solid var(--line); border-radius:14px; background:var(--surface); cursor:pointer; transition:border-color .2s, box-shadow .2s}
+.dcard .ic{position:relative; flex:none; width:42px; height:42px; border-radius:12px; background:var(--zc); display:grid; place-items:center}
+.dcard .ic svg{width:23px; height:23px}
+.dcard .ic i{position:absolute; top:-6px; right:-6px; width:19px; height:19px; border-radius:50%; background:var(--surface); color:var(--zc); border:2px solid var(--zc); font:700 10.5px/15px Inter, sans-serif; font-style:normal; text-align:center}
+.dcard .t{display:block; font-weight:600; font-size:14px; line-height:1.25}
+.dcard .s{display:block; font-size:12px; color:var(--muted); margin-top:1px}
+.dcard[aria-pressed="true"]{border-color:var(--zc); box-shadow:0 0 0 3px color-mix(in srgb, var(--zc) 22%, transparent)}
+.dcard.here{opacity:.55}
+
+/* zone panel */
+.zone{margin-top:16px; overflow:hidden; border-top:4px solid var(--zc)}
+.zhead{padding:16px 16px 4px; display:flex; gap:12px; align-items:flex-start}
+.zhead .ic{flex:none; width:36px; height:36px; border-radius:10px; background:var(--zc); display:grid; place-items:center}
+.zhead .ic svg{width:20px; height:20px}
+.zhead h2{margin:0; font-size:19px; line-height:1.25; font-weight:700}
+.zhead p{margin:2px 0 0; font-size:13.5px; color:var(--muted)}
+.zbody{padding:12px 16px 18px}
+.layoutbox{position:relative; border:1px solid var(--line); border-radius:10px; background:var(--ground); overflow:auto; max-height:70vh; -webkit-overflow-scrolling:touch}
+.layoutbox svg{display:block; margin:0 auto}
+.zoom{position:sticky; float:right; top:8px; right:8px; display:flex; z-index:4; margin:8px; border:1px solid var(--line); border-radius:8px; overflow:hidden; background:var(--surface)}
+.zoom button{width:36px; height:34px; border:0; background:none; font-size:18px; font-weight:500; cursor:pointer}
+.zoom button+button{border-left:1px solid var(--line)}
+.hint{font-size:12.5px; color:var(--muted); margin:8px 2px 0}
+.st{cursor:pointer}
+.st.hl rect.box{stroke:var(--here) !important; stroke-width:3 !important}
+.st.hl .ring{display:block}
+.ring{display:none; animation:blink 1.2s ease-in-out infinite}
+@keyframes blink{50%{opacity:.25}}
+.list{margin-top:16px; border:1px solid var(--line); border-radius:10px; overflow:hidden}
+.list h3{margin:0; padding:10px 12px; font-size:13px; font-weight:600; color:var(--muted); background:var(--bg); border-bottom:1px solid var(--line)}
+.row{display:flex; align-items:center; gap:12px; width:100%; text-align:left; border:0; border-bottom:1px solid var(--line); background:var(--surface); padding:10px 12px; cursor:pointer}
+.row:last-child{border-bottom:0}
+.row:hover{background:var(--bg)}
+.row .t{font-weight:600; font-size:14px; line-height:1.3}
+.row .s{font-size:12.5px; color:var(--muted)}
+.row.hl{background:color-mix(in srgb, var(--here) 9%, var(--surface))}
+.note{border:1px dashed var(--line); border-radius:10px; padding:16px; color:var(--muted); font-size:14px; margin-top:14px}
+.note strong{display:block; color:var(--ink); font-weight:600; margin-bottom:2px}
+
+/* stall sheet */
+.scrim{position:fixed; inset:0; background:rgba(15,23,42,.42); opacity:0; pointer-events:none; transition:opacity .2s; z-index:40}
+.scrim.on{opacity:1; pointer-events:auto}
+.sheet{position:fixed; left:0; right:0; bottom:0; z-index:41; background:var(--surface); border-radius:18px 18px 0 0; padding:10px 18px calc(18px + env(safe-area-inset-bottom,0px)); transform:translateY(105%); transition:transform .22s ease; max-width:600px; margin:0 auto; box-shadow:0 -12px 40px rgba(15,23,42,.25)}
+.sheet:not(.on){visibility:hidden; transition:transform .22s ease, visibility 0s .22s}
+.sheet.on{transform:none}
+.grab{width:36px; height:4px; border-radius:2px; background:var(--line); margin:0 auto 14px}
+.sheet .no{display:inline-block; color:#fff; font-weight:600; font-size:14px; border-radius:6px; padding:4px 10px}
+.sheet h3{font-size:19px; line-height:1.25; margin:10px 0 2px; font-weight:700}
+.sheet .tag{color:var(--muted); font-size:14px; margin:0}
+.sheet dl{margin:12px 0 0; display:grid; grid-template-columns:auto 1fr; gap:4px 14px; font-size:13.5px}
+.sheet dt{color:var(--muted)}
+.sheet dd{margin:0; font-weight:500}
+.acts{display:flex; gap:8px; margin-top:16px}
+footer{margin-top:22px; text-align:center; font-size:12.5px; color:var(--muted)}
+@media (max-width:360px){ .grid{grid-template-columns:1fr} }
+@media (prefers-reduced-motion: reduce){ .ping,.destpulse,.ring,.walker *{animation:none !important} .sheet,.scrim,.steps li{transition:none} }

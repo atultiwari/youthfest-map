@@ -5,20 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#0B1E4F" />
     <title>Festival map &amp; stall guide – Rotary Rotaract Youth Festival 2026</title>
-    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <main id="app">
-      <section class="placeholder">
-        <p class="eyebrow">Rotary Rotaract Youth Festival 2026</p>
+    <header>
+      <div class="wrap">
+        <div class="eyebrow">Rotary Rotaract Youth Festival 2026</div>
         <h1>Festival map</h1>
-        <p class="sub">Rebuild in progress</p>
-        <p class="note">
-          A black-box rebuild of the festival wayfinding map. The interactive map,
-          search and walking routes land here as the rebuild progresses.
-        </p>
+        <p class="sub">Fergusson College, Pune · 21–22 November</p>
+        <div class="search" role="search">
+          <svg width="17" height="17" viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" fill="none" stroke="#8A93A6" stroke-width="2.2" />
+            <path d="M16.5 16.5 21 21" stroke="#8A93A6" stroke-width="2.2" stroke-linecap="round" />
+          </svg>
+          <input
+            id="q"
+            type="search"
+            autocomplete="off"
+            placeholder="Find a stall, college or brand"
+            aria-label="Find a stall, college or brand"
+          />
+          <div class="results" id="results"></div>
+        </div>
+      </div>
+    </header>
+    <main class="wrap">
+      <div class="welcome" id="welcome" role="status"></div>
+      <section class="panel" aria-label="Festival map">
+        <div class="maphead">
+          <div><h2>Site map</h2><span id="mapHint">Tap a zone to be walked there</span></div>
+          <button class="fullbtn" id="fullbtn">Full map</button>
+        </div>
+        <div class="mapwrap">
+          <svg id="map" viewBox="0 0 720 1060" role="img" aria-label="Festival site map, entry at the bottom"></svg>
+        </div>
+        <div class="legend">
+          <span><svg width="26" height="8"><circle cx="4" cy="4" r="3" fill="var(--route)" /><circle cx="13" cy="4" r="3" fill="var(--route)" /><circle cx="22" cy="4" r="3" fill="var(--route)" /></svg>Your route</span>
+          <span><svg width="14" height="14"><circle cx="7" cy="7" r="5" fill="var(--here)" stroke="#fff" stroke-width="2" /></svg>You are here</span>
+          <span><svg width="22" height="12"><rect x="1" y="2" width="20" height="8" rx="2" fill="#fff" stroke="#E11D48" stroke-width="1.4" /><path d="M5 2 L9 10 M11 2 L15 10 M17 2 L20 8" stroke="#E11D48" stroke-width="2" /></svg>Barricaded, no entry</span>
+        </div>
+        <div class="dir" id="dir" aria-live="polite"></div>
       </section>
+      <section class="dest" aria-label="Destinations">
+        <h2 id="destTitle">Where do you want to go?</h2>
+        <div class="grid" id="grid"></div>
+      </section>
+      <section id="zone"></section>
+      <footer>
+        Routes are indicative. Follow festival signage or ask a volunteer.<br />
+        Rotary District 3131 · Rotaract District 3131
+      </footer>
     </main>
+    <div class="scrim" id="scrim"></div>
+    <div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
